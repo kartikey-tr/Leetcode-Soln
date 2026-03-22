@@ -1,3 +1,8 @@
+// Imagine a two pointer approach, check if the left pointer is smaller or the right one.
+// If left one is smaller then increase it by 1 and if the right one is smaller decrease it by 1.
+// Untill left pointer is smaller than the right one.
+// Keep calculating area in between.
+
 class Solution {
     public int maxArea(int[] height) {
         int left = 0;
