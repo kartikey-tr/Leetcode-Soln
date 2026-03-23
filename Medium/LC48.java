@@ -1,3 +1,7 @@
+// Transposed the Array
+// Reveresed every row to rotate the matrix clockwise
+// For anti-clockwise, we can just reverse every column instead of rows
+
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
